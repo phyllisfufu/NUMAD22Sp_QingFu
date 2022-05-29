@@ -3,6 +3,20 @@ plugins {
 }
 
 android {
+//    signingConfigs {
+//        debug {
+//            storeFile file('/Users/fuqing/Desktop/keystore')
+//            storePassword 'keystore'
+//            keyPassword 'keystore'
+//            keyAlias 'key0'
+//        }
+//        release {
+//            storeFile file('/Users/fuqing/Desktop/keystore')
+//            storePassword 'keystore'
+//            keyPassword 'keystore'
+//            keyAlias 'key0'
+//        }
+//    }
     compileSdk 32
 
     defaultConfig {

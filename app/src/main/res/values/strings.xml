@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NUMAD22Sp_QingFu</string>
+    <string name="about_string">About</string>
+    <string name="about_detail">Name: Qing Fu\nEmail: fu.qin@northeastern.edu</string>
+    <string name="click_here">Click here!</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
 </resources>
