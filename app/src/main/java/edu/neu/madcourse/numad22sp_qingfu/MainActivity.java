@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent ClickyClick_intent = new Intent(this, ClickyActivity.class);
                 startActivity(ClickyClick_intent);
                 break;
+            case R.id.linkcollector_button:
+                Intent linkCollector_intent = new Intent(this,LinkCollectorActivity.class);
+                startActivity(linkCollector_intent);
+                break;
         }
     }
 }
