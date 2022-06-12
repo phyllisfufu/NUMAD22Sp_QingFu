@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent linkCollector_intent = new Intent(this,LinkCollectorActivity.class);
                 startActivity(linkCollector_intent);
                 break;
+            case R.id.findPrime_button:
+                Intent findPrime_intent = new Intent(this,FindPrimeActivity.class);
+                startActivity(findPrime_intent);
+                break;
         }
     }
 }

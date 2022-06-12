@@ -29,6 +29,9 @@
             android:name=".LinkCollectorActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
+            android:name=".FindPrimeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:configChanges="keyboardHidden|orientation|screenSize">
