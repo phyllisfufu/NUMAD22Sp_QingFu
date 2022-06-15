@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent findPrime_intent = new Intent(this,FindPrimeActivity.class);
                 startActivity(findPrime_intent);
                 break;
+            case R.id.locate_button:
+                Intent locate_intent = new Intent(this,LocateActivity.class);
+                startActivity(locate_intent);
+                break;
         }
     }
 }
