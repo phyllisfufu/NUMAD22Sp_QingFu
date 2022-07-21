@@ -28,6 +28,9 @@
             android:name=".FindPrimeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
+            android:name=".LocateActivity_old"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
             android:name=".LocateActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity

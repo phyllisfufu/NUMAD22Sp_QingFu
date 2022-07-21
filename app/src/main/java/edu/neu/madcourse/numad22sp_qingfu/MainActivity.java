@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -38,8 +37,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent findPrime_intent = new Intent(this,FindPrimeActivity.class);
                 startActivity(findPrime_intent);
                 break;
+            case R.id.locate_button_old:
+                Intent locate_intent_old = new Intent(this, LocateActivity_old.class);
+                startActivity(locate_intent_old);
+                break;
             case R.id.locate_button:
-                Intent locate_intent = new Intent(this,LocateActivity.class);
+                Intent locate_intent = new Intent(this, LocateActivity.class);
                 startActivity(locate_intent);
                 break;
             case R.id.service_button:
